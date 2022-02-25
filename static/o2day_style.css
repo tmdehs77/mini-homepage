@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main{
+    border-bottom:1px solid black;
+    font-family: 'OTWelcomeRA';
+    font-size:25px;
+}
+.sub-title1, .sub-title2{
+    border-bottom:1px solid black;
+    color:dodgerblue;
+    font-family: 'Jua', sans-serif;
+    font-size:25px;
+}
+.char, .good, .bad{
+    font-weight:bolder;
+    font-size:large;
+}
+.good{
+    color:darkblue;
+    font-family: 'Jua', sans-serif;
+    font-size:22px;
+}
+.bad{
+    color:darkblue;
+    font-family: 'Jua', sans-serif;
+    font-size:22px;
+}
+.data{
+    font-weight:bolder;
+}
+body{
+    padding:0cm 2cm;
+}

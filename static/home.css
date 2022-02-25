@@ -1,0 +1,60 @@
+.update_box{   /*업데이트 뉴스 박스*/
+    flex:0.4;
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height:25px;
+}
+.update_font{   /*Updated news 폰트*/
+    flex:0.1;
+    border-bottom:2px solid #4aaac7;
+    font-family: 'KOTRA_BOLD-Bold';
+    font-size:20px;
+    color:#4aaac7;
+}
+.news{   
+    flex:0.8;
+    display:flex;
+    font-size:14px;
+}
+.board_recently{   /*사진첩, 게시판 등 소식*/
+    flex:1;
+}
+.picture{   /*사진첩*/
+    background-color:red;
+    color:white;
+    border-radius:5px;
+}
+.board{   /*게시판*/
+    background-color:dodgerblue;
+    color:white;
+    border-radius:5px;
+}
+
+
+.board_num{   /*다이어리, 방명록, 게시판 등 숫자*/
+    flex:1;
+}
+.line1, .line2{   
+    border-bottom:2.5px dotted gray;
+}
+.num{   /*숫자*/
+    font-family: 'NeoDunggeunmo';
+    color:#4190a8;
+}
+
+.miniroom_box{   /*미니룸 박스*/
+    flex:0.8;
+    margin:10px;
+}
+.miniroom_font{   /*Miniroom 텍스트*/
+    border-bottom:2px solid #4aaac7;
+    font-family: 'KOTRA_BOLD-Bold';
+    font-size:20px;
+    color:#4aaac7;
+}
+.miniroom_img{
+    border-radius:5px;
+    margin:3px 0 0 0;
+}

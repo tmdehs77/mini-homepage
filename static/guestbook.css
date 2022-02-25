@@ -1,0 +1,55 @@
+.guestbook_box{
+    margin:10px;
+    height:500px;
+    overflow:auto;
+}
+.guestbook_detail{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:50px;
+}
+
+.guestbook_title{
+    flex:0.2;
+    padding:8px 0;
+    background-color:gainsboro;
+    font-family: 'NeoDunggeunmo';
+    margin:20px 0;
+}
+.guest{
+    color:blue;
+}
+
+.guestbook_content{
+    flex:0.8;
+    display:flex;
+    flex-direction:row;
+    font-family:'KyoboHand';
+}
+.guestbook_image{
+    flex:0 0 8rem;
+    height:8rem;
+    background-size:cover;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.guestbook_image > img{
+    width:80%;
+}
+.background-1{
+    background-image:url("./images/background2.png");
+}
+.background-2{
+    background-image:url("./images/background3.png");
+}
+.background-3{
+    background-image:url("./images/background1.png");
+}
+.guestbook_writing{
+    margin-left:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

@@ -1,0 +1,25 @@
+.layout_box{
+    padding:10px;
+}
+.photo_list{
+    overflow:auto;
+    height:500px;
+}
+.photo_title{
+    background-color:gainsboro;
+    height:40px;
+    margin:15px 0 15px 0;
+    padding:5px 0 0 0;
+    font-size:larger;
+}
+.photo1, .photo2, .photo3{
+    font-family: 'KyoboHand';
+}
+.photo_img{
+    width:470px;
+    margin:0 15px 30px 15px;
+}
+.day{
+    font-size:small;
+    font-family: 'NeoDunggeunmo';
+}
